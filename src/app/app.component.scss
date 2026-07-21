@@ -1,0 +1,47 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .app-bar {
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    border-bottom: 1px solid #e2e2e3;
+    background: #f6f6f7;
+    flex: 0 0 auto;
+  }
+  
+  .app-tabs {
+    display: flex;
+    gap: 4px;
+  }
+  
+  .app-tab {
+    padding: 5px 14px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #67676c;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+  }
+  
+  .app-tab:hover {
+    color: #3c3c43;
+  }
+  
+  .app-tab--active {
+    background: rgba(21, 84, 255, 0.12);
+    color: #1554ff;
+  }
+  
+  .app-body {
+    position: relative;
+    flex: 1 1 auto;
+    min-height: 0;
+  }
+  
