@@ -13,8 +13,8 @@
     "@angular/forms": "^21.1.0",
     "@angular/platform-browser": "^21.1.0",
     "@angular/router": "^21.1.0",
-    "ngx-view-builder": "^0.1.5",
-    "ngx-view-builder-plugin-templates": "^0.1.5",
+    "ngx-view-builder": "^0.1.6",
+    "ngx-view-builder-plugin-templates": "^0.1.6",
     "rxjs": "^7.8.1",
     "tslib": "^2.5.0"
   },
