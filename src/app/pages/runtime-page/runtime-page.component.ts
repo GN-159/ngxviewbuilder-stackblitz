@@ -1,5 +1,5 @@
 import { Component, signal   ,inject} from '@angular/core';
-import { IStructure, NgxViewBuilderRuntime,  NgxViewBuilderApiService,  INgxViewBuilderRenderEvent } from 'ngx-view-builder';
+import { IStructure, NgxViewBuilderRuntime,  NgxViewBuilderApiService,  INgxViewBuilderRenderEvent } from '@ngxviewbuilder/runtime';
 import { initialData, loadStructure } from '../../shared/mock';
 @Component({
   selector: 'app-runtime-page',

@@ -1,4 +1,4 @@
-import { IStructure } from 'ngx-view-builder';
+import { IStructure } from '@ngxviewbuilder/runtime';
 
 const STORAGE_KEY = 'ngx-view-builder-demo.structure.v1';
 

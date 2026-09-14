@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { BuilderModel, INgxViewBuilderBuilderSettings, IStructure, NgxViewBuilderBuilder } from 'ngx-view-builder';
+import { BuilderModel, INgxViewBuilderBuilderSettings, IStructure, NgxViewBuilderDesigner } from '@ngxviewbuilder/designer';
 import { loadStructure, saveStructure } from '../../shared/mock';
 
 const builderSettings: INgxViewBuilderBuilderSettings = {};
@@ -7,7 +7,7 @@ const builderSettings: INgxViewBuilderBuilderSettings = {};
 @Component({
   selector: 'app-builder-page',
   standalone: true,
-  imports: [NgxViewBuilderBuilder],
+  imports: [NgxViewBuilderDesigner],
   templateUrl: './builder-page.component.html',
   styleUrl: './builder-page.component.scss',
 })
